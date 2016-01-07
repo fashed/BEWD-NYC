@@ -1,0 +1,7 @@
+<h2>Add a new photo</h2>
+
+<%= form_for @photo do |f| %>
+<p>Url: <%= f.text_field :url %></p>
+<p>Caption: <%= f.text_field :caption %></p>
+<%= f.submit %>
+<% end %>

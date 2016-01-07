@@ -33,3 +33,10 @@ APIs
 - Yelp
 - Instagram
 - Meetup
+
+Models
+Users
+Photos
+Tips
+Cities
+Location with quality attributes

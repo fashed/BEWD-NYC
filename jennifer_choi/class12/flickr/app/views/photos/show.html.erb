@@ -1,0 +1,10 @@
+<img src ="
+<%=@photo.url %>">
+
+<p><%=@photo.caption %></p>
+<%= link_to 'DELETE', @photo, method: :delete, data: {confirm: 'Are you sure?'} %>
+
+
+<p>
+  <%= link_to "Edit Photo", edit_photo_path %>
+</p>

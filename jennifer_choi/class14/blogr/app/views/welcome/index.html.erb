@@ -1,0 +1,9 @@
+<h1>Welcome to Blogr!</h1>
+
+<p>We have <%= @user_count %> users!</p>
+
+<ul>
+<% @users.each do |u| %>
+  <li><%= link_to u.name, user_posts_path(u) %></li>
+<% end %>
+</ul>
