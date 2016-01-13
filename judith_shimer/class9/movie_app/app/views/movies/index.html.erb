@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="header">
 	<h1>Jude's Moves</h1>
 </div>
@@ -14,3 +15,14 @@
 	<p class="title">The Girl with the Dragon Tattoo</p>
 	<p>2011</p>
 </div>
+=======
+<h2>ALL MOVIES</h2>
+
+<div class="button"><%= link_to "new movie", new_movie_path %></div>
+
+<% @movies.each do |movie| %>
+<div class="movie">
+	<p class="title"><%= link_to movie.title, movie %> - <%= movie.year %></p>
+</div>
+<% end %>
+>>>>>>> 3d7f328849262f52e025653097038928a3b7bcc1

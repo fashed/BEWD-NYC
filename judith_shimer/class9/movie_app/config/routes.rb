@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root 'movies#index'
+<<<<<<< HEAD
 end
 
 # The priority is based upon order of creation: first created -> highest priority.
@@ -56,3 +57,7 @@ end
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+=======
+  resources :movies
+end
+>>>>>>> 3d7f328849262f52e025653097038928a3b7bcc1

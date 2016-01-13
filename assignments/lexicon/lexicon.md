@@ -186,10 +186,49 @@ Paste in the following lines with all of the new terms and commands that you lea
 * In the show action, how do you find a bike by id? 
 * In your words, what is a model? What is a database?
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+#Class 10
+
+* How to define resourceful routes: 
+* What are the 7 routes that that one line of code gives you? what are they usually used for?
+* How to link to a `show` action in a view:
+* What are two ways that you can view all of the available routes in your app?
+* How to add columns to a pre-exising database table:
+* How to remove them:
+* Assuming a `Person` model with attribute `age`, how can you query the database (in the console or controller) to return all Person records ordered by age?
+
+#Class 11
+
+* HTTP method to show a new object form:
+* HTTP method that happens after you click submit:
+* Why do we use a permit params filter when we handle forms?
+* Why do we extract it into a separate private method?
+* How to redirect the user to a different view:
+* How to make it impossible to save a record without a particular field:
+
+
+#Class 12/13
+
+* How do you pass an existing record to an edit form from a controller?
+* What are partials? How do you use them? 
+* Assuming a Tweet model, how do we code the model so that it is impossible to create a tweet with more than 140 characters? How do we ensure that the timestamp exists? 
+* Explain how to warn a user that their input in a form is invalid? 
+* How do you generate a model that belongs to another? Example, how do you generate a tweet model that belongs to users? 
+* Let's say you forgot to make tweets belong to users. How do you relate the models now? What do you need to generate and what code needs to be written? 
+* How does that look in the database schema? 
+* What is a foreign key? 
+* How do you create a tweet that will belong to a particular user? 
+* How do you access the email address of tweet's user?
+* Let's say you have a blog post model. How do you ensure that all of the comments on the post are deleted automatically when the post itself is deleted? 
+* Imagine the model associations between User and Tweet. How would you code your routes so you have user's tweets on a page? 
+* List the seven routes that resources :things give you. What does each action normall do? 
+* 
+>>>>>>> 3d7f328849262f52e025653097038928a3b7bcc1
 
 
